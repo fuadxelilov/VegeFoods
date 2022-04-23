@@ -1,2 +1,2 @@
 # VegeFoods
-Website for Food Shop
+Website for Food Shopping
