@@ -1,0 +1,40 @@
+/* Stars Css */
+.stars{
+    display: flex;
+    transform: rotateY(180deg);
+    margin-top: 4px;
+}
+.stars  input{
+    display: none; 
+}
+.stars  label::before{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    font-size: 15px !important;    
+    font: var(--fa-font-solid);
+    content: "\f005";
+    color: #dddddd;
+    margin-left: 3px;
+}
+.stars  label::after{
+    display: block;
+    position: absolute;
+    font: var(--fa-font-solid);
+    content: "\f005";
+    font-size: 15px;
+    top: 0;
+    opacity: 0;
+    transition:.5s;
+    color: #82ae46;
+    margin-left: 3px;                         
+}
+.stars label:hover:after{
+    opacity: 1;
+}
+.stars label:hover ~ label::after{
+    opacity: 1;
+}
+.stars input:checked ~ label::after{
+    opacity: 1;
+}

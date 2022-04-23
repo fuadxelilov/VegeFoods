@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ===== META TAGS ===== -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VEGEFOODS</title>
+    <link rel="shortcut icon" href="https://image.shutterstock.com/image-vector/fruit-vegetables-logo-260nw-1360668347.jpg">
+    <link rel="stylesheet" href="./alert.css">
+    <link rel="stylesheet" href="./Shop.css" />
+    <link rel="stylesheet" href="a/css/all.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cabin+Condensed&family=Comfortaa:wght@300&family=Lato:wght@700&family=M+PLUS+2&family=Merriweather:wght@300;400&family=Nunito:ital@0;1&family=Poppins:wght@300&family=Work+Sans:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cabin+Condensed&family=Comfortaa:wght@300&family=Lato:wght@700&family=M+PLUS+2&family=Merriweather:wght@300;400&family=Nunito:ital@0;1&family=Poppins:wght@300&family=Work+Sans:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Comfortaa:wght@300&family=Lato:wght@700&family=M+PLUS+2&family=Merriweather:wght@300;400&family=Nunito:ital@0;1&family=Poppins:wght@300&family=Work+Sans:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+  </head>
+  <!-- ====== START BODY PART ====== -->
+  <body>
+    <!-- Loading part -->
+    <div class="loader-wrapper">
+    <div class="img"><img src="./../Assets/loading_ajax.gif"></div>
+    </div>
+    <!-- ==== START HEADER ===== -->
+    <header>
+      <!-- ===== Contact Nav ===== -->
+      <div class="first_part">
+        <div class="contact">
+          <i class="fa-solid fa-phone"></i>
+          <span></i>+ 1235 2355 98</span>
+        </div>
+        <div class="mail">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>YOUREMAIL@EMAIL.COM</span>
+        </div>
+        <div class="return">
+          <span>3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</span>
+        </div>
+      </div>
+      <!-- ===== Start Navbar ===== -->
+        <nav id="nav_bar">
+        <a class="Name" href="./../Home/index.html">Vegefoods</a>
+        <ul id="lists">
+          <li><a href="./../Home/index.html">Home</a></li>
+          <li class="dropdawn">
+            <a class="shopp" href="./../Shop/Shop.html">Shop </a>
+            <a class="icon_shop" href="#"><i class="fa-solid fa-caret-down"></i></a>
+          <ul class="inside">
+            <li class="insidelink"><a class="inside_shop" style="color: #82ae46;" href="./../Shop/Shop.html">Shop</a></li>
+            <li><a href="./../Wishlist/wishlist.html">Wishlist</a></li>
+            <li  class="singleproduct"><a  class="singleproductlink"href="./../SingleProduct/product.html">Single Product</a></li>
+            <li><a href="./../MyCart/mycart.html">Cart</a></li>
+            <li><a href="./../Checkout/check.html">Checkout</a></li>
+          </ul>
+          </li>
+          <li><a href="./../About/About.html">About</a></li>
+          <li><a href="./../Blog/Blog.html">Blog</a></li>
+          <li><a href="./../Contact/contact.html">Contact</a></li>
+          <li class="shopping" id="cart-shop">
+            <a  href="./../MyCart/mycart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            <span class="shop"></span>
+          </li>
+        </ul>
+        <div class="menu">
+        <div  class="menubar"><span id="menuid"></span></div>
+        <span class="menuwrite">Menu</span>
+        </div>
+        </nav>
+    </header>
+    <!-- ==== END HEADER ===== -->
+    <!-- ==== START Main Part ===== -->
+    <main>
+      <!-- First Section -->
+      <section id="first">
+        <div class="background">
+          <div class="container">
+            <p><span class="home-page"><a href="./../Home/index.html">Home</a></span>
+              <span class="product">Product</span>
+            </p>
+            <h1 class="Heading">Products</h1>
+          </div>
+        </div>
+      </section>
+      <!-- Second Section -->
+      <section id="second">
+        <div class="container">
+          <div class="all">
+            <ul class="category">
+              <li ><a class="all_link" onclick="click1()" style="background:#82ae46; color: #fff;" id="showall">All</a></li>
+              <li><a class="vegetable" onclick="clickk()" id="vege">Vegetables</a></li>
+              <li><a  class="fruits" onclick="click2()" id="fruits" >Fruits</a></li>
+              <li><a  class="juice" onclick="click3()" style="color: #82ae46;" id="juice" >Juice</a></li>
+              <li><a class="dried" onclick="click4()" id="dried" >Dried</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="part_2">
+        <div class="store">
+        <div class="headings">
+          <span>Featured Products</span>
+          <h2>Our Products</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        </div>
+        <div class="store_cards1" id="store1">
+          <div class="cardd">
+            <div class="products">
+            <a href="#">
+              <span>30%</span>
+            </a>
+          </div>
+          <div class="content">
+            <h3>
+              <a>Bell Pepper</a>              
+            </h3>
+            <div class="cost">
+              <span class="first_price">$120.00</span>
+              <span class="second_price">$80.00</span>
+              <div class="icons">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+              <a onclick="shopp()"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="heart_icon2" onclick="toggle2()"><i class="fa-solid fa-heart"></i></a>
+              </div>    
+            </div>
+          </div>
+          </div>
+          <div class="cardd5">
+            <div class="products">
+            <a href="#">
+              <span>30%</span>
+            </a>
+          </div>
+          <div class="content">
+            <h3>
+              <a href="#">Tomatoe</a>              
+            </h3>
+            <div class="cost">
+              <span class="first_price">$120.00</span>
+              <span class="second_price">$80.00</span>
+              <div class="icons">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+              <a onclick="shopp()"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="heart_icon" onclick="toggle()"><i class="fa-solid fa-heart"></i></a>
+              </div>    
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="store_cards2" id="store2">
+          <div class="cardd1">
+            <div class="products">
+            <a href="#">
+              <span>30%</span>
+            </a>
+          </div>
+          <div class="content">
+            <h3>
+              <a href="#">Apple</a>              
+            </h3>
+            <div class="cost">
+              <span class="first_price">$120.00</span>
+              <span class="second_price">$80.00</span>
+              <div class="icons">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+              <a onclick="shopp()"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="heart_icon4" onclick="toggle4()"><i class="fa-solid fa-heart"></i></a>
+              </div>    
+            </div>
+          </div>
+          </div>
+          <div class="cardd3">
+            <div class="products">
+            <a href="#">
+              <span>30%</span>
+            </a>
+          </div>
+          <div class="content">
+            <h3>
+              <a href="#">Strawberry</a>              
+            </h3>
+            <div class="cost">
+              <span class="first_price">$120.00</span>
+              <span class="second_price">$80.00</span>
+              <div class="icons">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+              <a onclick="shopp()"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="heart_icon5" onclick="toggle5()"><i class="fa-solid fa-heart"></i></a>
+              </div>    
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="store_cards3" id="store3">
+          <div class="cardd1">
+            <div class="products">
+            <a href="#">
+              <span>30%</span>
+            </a>
+          </div>
+          <div class="content">
+            <h3>
+              <a href="#">Fruit Juice</a>              
+            </h3>
+            <div class="cost">
+              <span class="first_price">$120.00</span>
+              <span class="second_price">$80.00</span>
+              <div class="icons">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+              <a onclick="shopp()"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="heart_icon6" onclick="toggle6()"><i class="fa-solid fa-heart"></i></a>
+              </div>    
+            </div>
+          </div>
+          </div>
+          <div class="cardd3">
+            <div class="products">
+            <a href="#">
+              <span>30%</span>
+            </a>
+          </div>
+          <div class="content">
+            <h3>
+              <a href="#">Pomegranate juice</a>              
+            </h3>
+            <div class="cost">
+              <span class="first_price">$120.00</span>
+              <span class="second_price">$80.00</span>
+              <div class="icons">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+              <a onclick="shopp()"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="heart_icon7"  onclick="toggle7()"><i class="fa-solid fa-heart"></i></a>
+              </div>    
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="store_cards4" id="store4">
+          <div class="cardd1">
+            <div class="products">
+            <a href="#">
+              <span>30%</span>
+            </a>
+          </div>
+          <div class="content">
+            <h3>
+              <a href="#">Garlic</a>              
+            </h3>
+            <div class="cost">
+              <span class="first_price">$120.00</span>
+              <span class="second_price">$80.00</span>
+              <div class="icons">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+              <a onclick="shopp()"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="heart_icon8" onclick="toggle8()"><i class="fa-solid fa-heart"></i></a>
+              </div>    
+            </div>
+          </div>
+          </div>
+          <div class="cardd3">
+            <div class="products">
+            <a href="#">
+              <span>30%</span>
+            </a>
+          </div>
+          <div class="content">
+            <h3>
+              <a href="#">Chilli</a>              
+            </h3>
+            <div class="cost">
+              <span class="first_price">$120.00</span>
+              <span class="second_price">$80.00</span>
+              <div class="icons">
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+              <a onclick="shopp()"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a class="heart_icon9" onclick="toggle9()"><i class="fa-solid fa-heart"></i></a>
+              </div>    
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="container_2">
+          <div class="all">
+            <ul class="category">
+              <li><a class="dis" id="disable" onclick="disablee()"><i class="fa-solid fa-angle-left"></i></a></li>
+              <li ><a class="link1" style="background:#82ae46; color: #fff;" onclick="click1()" id="first_tab">1</a></li>
+              <li><a id="vege2" class="link2" onclick="clickk()">2</a></li>
+              <li><a id="fruits2" class="link3" onclick="click2()">3</a></li>
+              <li><a id="juice2" class="link4" onclick="click3()">4</a></li>
+              <li><a id="dried2" class="link5" onclick="click4()">5</a></li>
+              <li><a class="dis2" id="disable2" onclick="disablee2()" ><i class="fa-solid fa-angle-right"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Third Section -->
+      <section id="third">
+      <div class="container2">
+        <div class="content_left">
+          <h2>Subcribe to our Newsletter</h2>
+          <span>Get e-mail updates about our latest shops and special offers</span>
+        </div>
+        <div class="email">
+          <!-- Form Part -->
+          <form id="form">
+            <input type="email"  class="type" id="address" placeholder="Enter email address">
+            <input type="button" value="Subscribe" class="submit" id="xxx">
+          </form>
+        </div>
+      </div>
+      </section>
+    </main>
+    <!-- ===== END MAIN ======= -->
+    <!-- ====== Footer  ======-->
+    <footer>
+      <!-- Footer Conatiner -->
+      <div class="container">
+        <div class="mouse">
+          <a class="icon_wheel"href="#">
+            <div class="wheel">
+              <span><i class="fa-solid fa-angle-up"></i></span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Lists of Footer -->
+      <div class="footer_lists">
+        <!-- First List -->
+        <div class="first_list">
+          <h2 class="first_heading">
+            Vegefoods
+          </h2>
+          <p class="first_content">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+          </p>
+          <ul class="socials">
+            <li class="Twitter"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="Facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="Instagram"><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+        </div>
+        <!-- Second List -->
+        <div class="second_list">
+          <h2 class="second_heading">Menu</h2>
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Journal</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <!-- Third List -->
+        <div class="third_list">
+          <h2 class="third_heading">Help</h2>
+          <div class="parts">
+          <ul class="first_part">
+            <li><a href="#">Shipping Information</a></li>
+            <li><a href="#">Returns & Exchange</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+          <ul class="second_part">
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          </div>
+        </div>
+        <!-- Fourth List -->
+        <div class="fourth_list">
+          <h2 class="fourth_heading">
+            Have a Questions?
+          </h2>
+          <ul>
+            <li class="location">
+              <span class="icon_part">
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+              <span class="location_text">	203 Fake St. Mountain View, San Francisco, California, USA</span>
+            </li>
+            <li class="phone">
+              <a class="icon_link" href="#"><i class="fa-solid fa-phone"></i></a>
+              <a class="number_link" href="#">+2 392 3929 210</a>
+            </li>
+            <li class="envelope">
+              <a class="icon_mail" href="#">
+                <span class="icon-envelope"><i class="fa-solid fa-envelope"></i></span>
+              </a>
+              <span class="mail">info@yourdomain.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- COPYRIGHT PART -->
+      <div class="copyright">
+            <span>Copyright ©2022 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <a href="#">Colorlib</a></span>
+      </div>
+    </footer>
+    <!-- ===== END FOOTER ======= -->
+    <!-- ==== Alert Input Part -->
+    <div class="alert hide">
+        <span  id="span1" class="fas fa-exclamation-circle"></span>
+        <span style="display: none;" id="span2" class="fa-solid fa-check"></span>
+        <span style="display: none;" id="span4" class="fa-solid fa-xmark"></span>
+        <span class="msg">Warning: Write adress again!</span>
+        <div id="clsbtn" class="close-btn">
+            <span id="span3" class="fas fa-times"></span>
+        </div>
+    </div>
+  </body>
+  <!-- ====== END BODY ===== -->
+  <!-- <<<<< START Scripts Part >>>>>> -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/e17dd8c95a.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./Js Folder/Shop.js"></script>
+  <script>
+    var slide = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+        el: ".slider-pagination",
+        clickable: true,
+        },
+        autoplay: {
+        delay: 1000,
+        },
+    });
+  </script>
+  <!-- ==== JQUERY SCRIPTS ====== -->
+  <script >
+    $(document).ready(function(){
+      $("#showall").click(function(){
+        $("#store1").show();
+        $("#store2").show();
+        $("#store3").show();
+        $("#store4").show();
+    });
+        $("#vege").click(function(){
+        $("#store1").show();
+        $("#store2").hide();
+        $("#store3").hide();
+        $("#store4").hide();
+    });
+    $("#fruits").click(function(){
+        $("#store2").show();
+        $("#store1").hide();
+        $("#store3").hide();
+        $("#store4").hide();
+        });
+        $("#juice").click(function(){
+        $("#store2").hide();
+        $("#store1").hide();
+        $("#store3").show();
+        $("#store4").hide();
+        });
+        $("#dried").click(function(){
+        $("#store2").hide();
+        $("#store1").hide();
+        $("#store3").hide();
+        $("#store4").show();
+        });
+
+
+        $("#first_tab").click(function(){
+        $("#store2").show();
+        $("#store1").show();
+        $("#store3").show();
+        $("#store4").show();
+        });
+        $("#fruits2").click(function(){
+        $("#store2").show();
+        $("#store1").hide();
+        $("#store3").hide();
+        $("#store4").hide();
+        });
+        $("#vege2").click(function(){
+        $("#store1").show();
+        $("#store2").hide();
+        $("#store3").hide();
+        $("#store4").hide();
+        });
+        $("#juice2").click(function(){
+        $("#store1").hide();
+        $("#store2").hide();
+        $("#store3").show();
+        $("#store4").hide();
+        });
+        $("#dried2").click(function(){
+        $("#store2").hide();
+        $("#store1").hide();
+        $("#store3").hide();
+        $("#store4").show();
+        });
+    });
+  </script>
+  <script>
+    $('#xxx').click(function(){
+           $('.alert').addClass("show");
+           $('.alert').removeClass("hide");
+           $('.alert').addClass("showAlert");
+           setTimeout(function(){
+             $('.alert').removeClass("show");
+             $('.alert').addClass("hide");
+           },5000);
+         });
+         $('.close-btn').click(function(){
+           $('.alert').removeClass("show");
+           $('.alert').addClass("hide");
+         });
+  </script>
+  <script>
+    $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut(2000);
+    });
+  </script>
+  <!-- ===== END SCRIPTS ====== -->
+</html>

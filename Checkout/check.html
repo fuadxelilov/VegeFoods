@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Meta Tags -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VEGEFOODS</title>
+    <link rel="shortcut icon" href="https://image.shutterstock.com/image-vector/fruit-vegetables-logo-260nw-1360668347.jpg">
+    <link rel="stylesheet" href="./check.css">
+    <link rel="stylesheet" href="./alert.css">
+    <link rel="stylesheet" href="a/css/all.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cabin+Condensed&family=Comfortaa:wght@300&family=Lato:wght@700&family=M+PLUS+2&family=Merriweather:wght@300;400&family=Nunito:ital@0;1&family=Poppins:wght@300&family=Work+Sans:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cabin+Condensed&family=Comfortaa:wght@300&family=Lato:wght@700&family=M+PLUS+2&family=Merriweather:wght@300;400&family=Nunito:ital@0;1&family=Poppins:wght@300&family=Work+Sans:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Comfortaa:wght@300&family=Lato:wght@700&family=M+PLUS+2&family=Merriweather:wght@300;400&family=Nunito:ital@0;1&family=Poppins:wght@300&family=Work+Sans:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+  </head>
+  <!-- START BODY -->
+  <body>
+    <!-- LOADING -->
+    <div class="loader-wrapper">
+    <div class="img"><img src="./../Assets/loading_ajax.gif"></div>
+    </div>
+    <!-- START HEADER -->
+    <header>
+      <!-- CONTACT NAVBAR -->
+      <div class="first_part">
+        <div class="contact">
+          <i class="fa-solid fa-phone"></i>
+          <span></i>+ 1235 2355 98</span>
+        </div>
+        <div class="mail">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>YOUREMAIL@EMAIL.COM</span>
+        </div>
+        <div class="return">
+          <span>3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</span>
+        </div>
+      </div>
+      <!-- NAVBAR -->
+        <nav id="nav_bar">
+        <a class="Name" href="./../Home/index.html">Vegefoods</a>
+        <ul id="lists">
+          <li><a href="./../Home/index.html">Home</a></li>
+          <li class="dropdawn">
+            <a class="shopp" href="./../Shop/Shop.html">Shop </a>
+            <a class="icon_shop" href="#"><i class="fa-solid fa-caret-down"></i></a>
+          <ul class="inside">
+            <li><a href="./../Shop/Shop.html">Shop</a></li>
+            <li><a href="./../Wishlist/wishlist.html">Wishlist</a></li>
+            <li><a href="./../SingleProduct/product.html">Single Product</a></li>
+            <li><a href="./../MyCart/mycart.html">Cart</a></li>
+            <li class="checkout"><a class="checkoutlink" href="#">Checkout</a></li>
+          </ul>
+          </li>
+          <li><a href="./../About/About.html">About</a></li>
+          <li><a href="./../Blog/Blog.html">Blog</a></li>
+          <li><a href="./../Contact/contact.html">Contact</a></li>
+          <li class="shopping">
+            <a  href="./../MyCart/mycart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="menu">
+        <div  class="menubar"><span id="menuid"></span></div>
+        <span class="menuwrite">Menu</span>
+        </div>
+        </nav>
+    </header>
+    <!-- END HEADER -->
+    <!-- START MAIN -->
+    <main>
+      <!-- START FIRST SECTION -->
+        <section id="first">
+        <div class="background">
+          <div class="container">
+            <p><span class="home-page"><a href="./../Home/index.html">Home</a></span>
+              <span class="product">Checkout</span>
+            </p>
+            <h1 class="Heading">Checkout</h1>
+          </div>
+        </div>
+        </section>
+      <!-- START SECOND SECTION -->
+        <section id="second">
+            <div class="container2">
+                <div class="first_blocks">
+                  <h3 class="first-headingg">Billing Details</h3>
+                    <div class="name_forum">
+                        <div class="first-name" id="hjhj">
+                        <label for="firstname">Firt Name</label>
+                        <input type="text" class="firstname" id="input1" disabled >
+                        <small>Error message</small>
+                        </div>
+                        <div class="last-name">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="input2" class="secondname" disabled>
+                        <small>Error message</small>
+                        </div>
+                    </div>    
+                    <div class="state-country">
+                        <label for="statecountry">State / Country</label>
+                        <div class="form-country">
+                        <select name="country" id="select-country" class="change" disabled>
+                            <option id="Azerbaijan">Azerbaijan</option>
+                            <option id="Turkey">Turkey</option>
+                            <option id="Pakistan">Pakistan</option>
+                            <option id="Ukraine">Ukraine</option>
+                            <option id="Japan">Japan</option>
+                            <option id="Italy">Italy</option>
+                        </select>                        
+                    </div>
+                    </div>
+                    <div class="adress">
+                    <div class="street">
+                        <label for="streetadress">Street Address</label>
+                        <input type="text" class="adress_input" id="input3" placeholder="House number and street name" disabled>
+                        <small>Error message</small>
+                    </div>
+                    <div class="adress1">
+                        <input type="text" class="adress1_input" id="input4" placeholder="Appartment, suite, unit etc: (optional)" disabled>
+                        <small>Error message</small>
+                    </div>
+                    <div class="town" id="town">
+                        <label for="town-city">Town / City</label>
+                        <input type="text" class="town_input" id="input5" placeholder="Baku" disabled> 
+                        <small>Error message</small>
+                    </div>
+                    <div class="postcode">
+                        <label for="postcode_input">Postcode / ZIP *</label>
+                        <input type="text" class="postcode_input" id="input6" disabled>
+                        <small>Error message</small>
+                    </div>
+                    <div class="Phone">
+                        <label for="phone_contact">Phone</label>
+                        <input type="text" class="phone_input" id="input8" value="+994  " disabled>
+                    </div>
+                    <div class="email">
+                        <label for="email_input">Email</label>
+                        <input type="text" class="email_input" id="input7" placeholder="Example@mail.ru" disabled>
+                    </div>
+                    </div>
+                    <div class="radio_part" id="prt" >
+                    <label id="radio_label" name="optradio">
+                        <input  type="radio" name="indoor" id="input9" checked="checked" class="radio_input" value="Create an Account?"  disabled>
+                        <label for="input9">Create an Account?</label> 
+                    </label>
+                    <label id="radio_label" name="optradio">
+                        <input type="radio" name="indoor" id="input10" value="Ship to different address" class="radio_input"  disabled>
+                        <label>Ship to different address</label> 
+                    </label>
+                    </div>
+                    
+                  </div>
+                <div class="second_blocks">
+                    <div class="cart">
+                        <h3>Cart Total</h3>
+                        <p>
+                            <span>Subtotal</span>
+                            <span>$20.60</span>
+                        </p>
+                        <p>
+                            <span>Delivery</span>
+                            <span>$0.00</span>
+                        </p>
+                        <p>
+                            <span>Discount</span>
+                            <span>$3.00</span>
+                        </p>
+                        <p class="hr">
+                            <span>Total</span>
+                            <span class="bold">$17.60</span>
+                        </p>
+                    </div>
+                    <div class="cart2">
+                        <h3>Payment Method</h3>
+                        <label>
+                            <input type="radio" name="payment" checked="checked" id="input11" value="Direct Bank Tranfer" disabled>
+                            <label for="input11">Direct Bank Tranfer</label>   
+                        </label>
+                        <label>
+                            <input type="radio" name="payment" id="input12" value="Check Payment" disabled>
+                            <label for="input12">Check Payment</label>  
+                        </label>
+                        <label>
+                            <input type="radio" name="payment" id="input13" value="Paypal" disabled>
+                            <label for="input13">PaypalBu</label>  
+                        </label>
+                        <label class="checkbox_label">
+                            <input type="checkbox" name="check" id="check">
+                            <span>Fill in the following information</span>
+                        </label>
+                        <label class="checkbox_label2">
+                            <input type="checkbox" name="check2" id="check2">
+                            <span>I have read and accept the terms and conditions</span>
+                        </label>
+                        <div>
+                            <button class="btn-box" id="btn_id" onclick="names()" disabled><span>Place an order</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!-- Third SECTION -->
+        <section id="third">
+      <div class="container2">
+        <div class="content_left">
+          <h2>Subcribe to our Newsletter</h2>
+          <span>Get e-mail updates about our latest shops and special offers</span>
+        </div>
+        <div class="email">
+          <form id="form">
+            <input type="email"  class="type" id="address" placeholder="Enter email address">
+            <input type="button" value="Subscribe" class="submit" id="xxx">
+          </form>
+        </div>
+      </div>
+        </section>
+    </main>
+    <!-- End Main -->
+    <!-- Start Footer -->
+    <footer>
+      <!-- FOOTER CONTAINER -->
+      <div class="container">
+        <div class="mouse">
+            <a class="icon_wheel" href="#">
+                <div class="wheel">
+                    <span><i class="fa-solid fa-angle-up"></i></span>
+                </div>
+            </a>
+        </div>
+      </div>
+      <!-- FOOTER LISTS -->
+      <div class="footer_lists">
+        <!-- FIRST LISTS -->
+        <div class="first_list">
+          <h2 class="first_heading">
+            Vegefoods
+          </h2>
+          <p class="first_content">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+          </p>
+          <ul class="socials">
+            <li class="Twitter"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="Facebook"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="Instagram"><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+        </div>
+        <!-- SECOND LISTS -->
+        <div class="second_list">
+          <h2 class="second_heading">Menu</h2>
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Journal</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <!-- THIRD LISTS -->
+        <div class="third_list">
+          <h2 class="third_heading">Help</h2>
+          <div class="parts">
+          <ul class="first_part">
+            <li><a href="#">Shipping Information</a></li>
+            <li><a href="#">Returns & Exchange</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+          <ul class="second_part">
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          </div>
+        </div>
+        <!-- Fourth List -->
+        <div class="fourth_list">
+          <h2 class="fourth_heading">
+            Have a Questions?
+          </h2>
+          <ul>
+            <li class="location">
+              <span class="icon_part">
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+              <span class="location_text">	203 Fake St. Mountain View, San Francisco, California, USA</span>
+            </li>
+            <li class="phone">
+              <a class="icon_link" href="#"><i class="fa-solid fa-phone"></i></a>
+              <a class="number_link" href="#">+2 392 3929 210</a>
+            </li>
+            <li class="envelope">
+              <a class="icon_mail" href="#">
+                <span class="icon-envelope"><i class="fa-solid fa-envelope"></i></span>
+              </a>
+              <span class="mail">info@yourdomain.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- CopyRight -->
+      <div class="copyright">
+            <span>Copyright ©2022 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <a href="#">Colorlib</a></span>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Alert Part -->
+    <div class="alert hide">
+        <span  id="span1" class="fas fa-exclamation-circle"></span>
+        <span style="display: none;" id="span2" class="fa-solid fa-check"></span>
+        <span style="display: none;" id="span4" class="fa-solid fa-xmark"></span>
+        <span class="msg" id="text">Warning: Write adress again!</span>
+        <div id="clsbtn" class="close-btn">
+            <span id="span3" class="fas fa-times"></span>
+        </div>
+    </div>
+  </body>
+  <!-- End Body -->
+  <!-- Scripts -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/e17dd8c95a.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./Js Folder/check.js"></script>
+  <script>
+    var slide = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+        el: ".slider-pagination",
+        clickable: true,
+        },
+        autoplay: {
+        delay: 1000,
+        },
+    });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- JQUERY -->
+  <script>
+    $('#xxx').click(function(){
+           $('.alert').addClass("show");
+           $('.alert').removeClass("hide");
+           $('.alert').addClass("showAlert");
+           setTimeout(function(){
+             $('.alert').removeClass("show");
+             $('.alert').addClass("hide");
+           },5000);
+         });
+         $('.close-btn').click(function(){
+           $('.alert').removeClass("show");
+           $('.alert').addClass("hide");
+         });
+  </script>
+  <script>
+    $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut(2000);
+    });
+  </script>
+  <!--END SCRIPTS  -->
+</html>

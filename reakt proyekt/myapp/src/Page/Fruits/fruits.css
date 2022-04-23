@@ -1,0 +1,9 @@
+.fruit{
+    padding-top:10%;
+    padding-bottom: 5%;
+    background-image:url(./../../../../../Assets/Image/xbg_1.jpg.pagespeed.ic.URiZnejtdu.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}

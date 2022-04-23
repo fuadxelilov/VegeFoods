@@ -1,0 +1,21 @@
+.slide{
+    padding-top:10%;
+    padding-bottom: 5%;
+    background-image:url(./../../../../../Assets/Image/Tme.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #82ae46;
+}
+.headersecond{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #82ae46;
+}
